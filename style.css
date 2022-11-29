@@ -1,0 +1,116 @@
+body {
+    background-image: url(./sky.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Hind', sans-serif;
+}
+
+/* 入力エリア */
+form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    opacity: 98%;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+}
+
+table {
+    width: 50%;
+    font-family: 'Bebas Neue', cursive;
+    /* background-color: whitesmoke; */
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+}
+
+input {
+    margin: 5px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+}
+
+button {
+    font-family: 'Bebas Neue', cursive;
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+}
+
+
+
+
+
+.margin-top {
+    margin-top: 150px;
+
+}
+
+.wide {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    ;
+}
+
+.wrapper {
+    background-color: white;
+    height: 220px;
+    width: 530px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .5);
+
+}
+
+.wrapper-back {
+    background-color: rgb(101, 196, 234);
+}
+
+.top {
+    font-size: 28px;
+    border-radius: 10px 10px 0px 0px;
+    height: 40px;
+    background-color: rgb(101, 196, 234);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flight-info {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.name {
+    margin: 15px 0 0 10px;
+}
+
+.company {
+    font-size: 30px;
+    background-color: skyblue;
+    border-radius: 5px;
+    height: 36px;
+    padding: 5px;
+    margin: 0 40px 0 0px;
+}
+
+.bottom {
+    height: 10px;
+    background-color: skyblue;
+}
+
+.date {
+    margin: 20px 0 0 10px;
+
+}
